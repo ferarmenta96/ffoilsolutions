@@ -1,0 +1,38 @@
+F&F OIL SOLUTIONS - PASOS PARA APARECER EN GOOGLE Y OTROS BUSCADORES
+(Este archivo es solo para ti; puedes borrarlo antes de subir el sitio.)
+
+1. PUBLICA EN TU DOMINIO: ffoilsolutions.com
+   El sitio ya esta configurado para https://ffoilsolutions.com (sin www).
+   En Netlify: Domain management > Add domain > ffoilsolutions.com. Activa HTTPS.
+
+2. GOOGLE SEARCH CONSOLE  (search.google.com/search-console)
+   - Agrega propiedad tipo "Dominio": ffoilsolutions.com
+   - Verifica con el registro TXT que te da Google (se pone en el DNS de tu dominio).
+   - Menu Sitemaps > escribe: sitemap.xml > Enviar.
+   - Inspeccion de URL > pega https://ffoilsolutions.com/ > "Solicitar indexacion".
+     Repite con https://ffoilsolutions.com/es/
+
+3. GOOGLE BUSINESS PROFILE  (business.google.com)  <- EL MAS IMPORTANTE PARA BUSQUEDAS LOCALES
+   - Registralo como negocio de "area de servicio" (no necesitas mostrar direccion).
+   - Elige la categoria que mas se acerque a filtracion / servicio industrial de aceite
+     y agrega categorias secundarias relacionadas.
+   - Area de servicio: McAllen, Edinburg, Mission, Pharr, Weslaco, Harlingen, Brownsville.
+   - Telefono 956-272-6415, sitio web https://ffoilsolutions.com, horario y fotos de la maquina.
+   - Pide a tus primeros clientes que dejen resenas.
+
+4. BING WEBMASTER TOOLS  (bing.com/webmasters)
+   - Usa "Importar desde Google Search Console".
+   - Cubre Bing, Yahoo, DuckDuckGo y Ecosia.
+
+5. APPLE BUSINESS CONNECT  (businessconnect.apple.com)
+   - Para aparecer en Apple Maps y Siri.
+
+6. DIRECTORIOS (los enlaces desde otros sitios ayudan mucho)
+   - Yelp, Thomasnet, Manta, BBB, camara de comercio de tu ciudad,
+     pagina de empresa en LinkedIn y pagina de negocio en Facebook.
+   - Usa SIEMPRE el mismo nombre, telefono y sitio web en todos.
+
+7. DESPUES
+   - Sube fotos reales a /images (equipo-1.jpg, equipo-2.jpg, equipo-3.jpg).
+   - Revisa Search Console cada mes para ver con que busquedas te encuentran.
+   - Si cambias el sitio, vuelve a enviar el sitemap.
