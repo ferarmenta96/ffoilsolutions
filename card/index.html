@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--HEAD-START-->
+<title>F&amp;F Oil Solutions</title>
+<meta name="description" content="Tarjeta de presentación digital de F&F Oil Solutions — Industrial Oil Filtration & Reclamation.">
+<meta name="theme-color" content="#0E1F3A">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="F&F Oil">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Saira+Condensed:wght@600;700;800&display=swap">
+<style>
+:root{
+  --navy:#0E1F3A; --navy-2:#16294A; --gold:#C9A227; --gold-soft:#E6CD7A; --amber:#8A5A12;
+  --bg:#EEF0F3; --surface:#FFFFFF; --ink:#0B1426; --muted:#5A6478; --line:#D6DBE3;
+  --btn:#0E1F3A; --btn-ink:#FFFFFF; --chip:#F5EFD9;
+  --display:"Saira Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#08111F; --surface:#0F1C31; --ink:#E9EDF4; --muted:#9AA6BA; --line:#22324F;
+  --btn:#C9A227; --btn-ink:#0B1426; --chip:#1E2A3F; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#08111F; --surface:#0F1C31; --ink:#E9EDF4; --muted:#9AA6BA; --line:#22324F;
+  --btn:#C9A227; --btn-ink:#0B1426; --chip:#1E2A3F; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);
+  padding-inline:16px;padding-block:calc(env(safe-area-inset-top,0px) + 16px) calc(env(safe-area-inset-bottom,0px) + 32px)}
+.wrap{max-width:460px;margin:0 auto;display:grid;gap:20px}
+.top{display:flex;justify-content:space-between;align-items:center}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{border:0;background:transparent;color:var(--muted);font:500 12px var(--mono);padding:6px 12px;cursor:pointer;letter-spacing:.06em}
+.lang button[aria-pressed="true"]{background:var(--btn);color:var(--btn-ink)}
+.nfc-tag{font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px}
+.nfc-tag svg{width:18px;height:18px}
+
+/* The physical card */
+.card{position:relative;aspect-ratio:1.75/1;max-width:100%;border-radius:14px;background:
+  radial-gradient(120% 90% at 100% 0%,#1d3563 0%,transparent 55%),var(--navy);
+  color:#F4F1E6;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between;
+  box-shadow:0 18px 40px -18px rgba(8,17,31,.55);overflow:hidden}
+.card::before{content:"";position:absolute;inset:8px;border:1px solid rgba(201,162,39,.45);border-radius:9px;pointer-events:none}
+.card .brand{display:flex;gap:12px;align-items:center}
+.drop{width:38px;height:38px;flex:none}
+.card h1{margin:0;font:800 30px/0.95 var(--display);letter-spacing:.01em;text-transform:uppercase}
+.card h1 span{color:var(--gold)}
+.card .desc{font:500 10.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft);margin-top:4px}
+.card .who{font-size:13px;line-height:1.35}
+.card .who b{font:700 19px var(--display);letter-spacing:.03em;display:block;text-transform:uppercase}
+.grades{display:flex;gap:6px;position:absolute;right:22px;bottom:20px}
+.grades span{font:500 10px var(--mono);border:1px solid rgba(201,162,39,.6);color:var(--gold);padding:3px 6px;border-radius:4px}
+
+/* Actions */
+.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.act{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:var(--ink);font:500 12px var(--body);
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 4px;cursor:pointer}
+.act svg{width:22px;height:22px;color:var(--amber)}
+:root[data-theme="dark"] .act svg{color:var(--gold)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .act svg{color:var(--gold)}}
+.act:focus-visible,.primary:focus-visible,.ghost:focus-visible,.lang button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.primary{display:flex;justify-content:center;align-items:center;gap:10px;width:100%;border:0;border-radius:12px;background:var(--btn);color:var(--btn-ink);
+  font:700 18px var(--display);letter-spacing:.06em;text-transform:uppercase;padding:14px;cursor:pointer;text-decoration:none}
+.primary svg{width:20px;height:20px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ghost{display:flex;justify-content:center;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:12px;padding:12px;font:500 14px var(--body);cursor:pointer}
+.ghost svg{width:18px;height:18px}
+
+section h2{margin:0 0 10px;font:700 15px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.svc{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.svc li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 14px;border-top:1px solid var(--line)}
+.svc li:first-child{border-top:0}
+.svc b{font-weight:600}
+.svc small{grid-column:1/-1;color:var(--muted);font-size:13px}
+.svc code{font:500 11px var(--mono);background:var(--chip);color:var(--ink);padding:2px 6px;border-radius:4px;align-self:start;white-space:nowrap}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:14px}
+.qrbox{display:flex;gap:16px;align-items:center}
+#qr{background:#fff;padding:8px;border-radius:8px;flex:none;line-height:0}
+#qr img,#qr canvas{width:112px;height:112px}
+.qrbox p{margin:0;color:var(--muted);font-size:13px}
+.url{font:500 12px var(--mono);color:var(--ink);word-break:break-all;margin-top:6px}
+.status{font-size:13px;color:var(--muted);min-height:1.2em}
+.status.ok{color:#2E7D4F}.status.err{color:#B3261E}
+.hint{font-size:13px;color:var(--muted);margin:0}
+footer{text-align:center;font:400 11px var(--mono);color:var(--muted);letter-spacing:.08em}
+@media (max-width:380px){.card h1{font-size:25px}.grades{display:none}}
+@media (prefers-reduced-motion:no-preference){.card{animation:rise .5s ease-out both}@keyframes rise{from{transform:translateY(8px) rotateX(8deg)}to{transform:none}}}
+</style>
+<!--HEAD-END-->
+</head>
+<body>
+<!--BODY-START-->
+<div class="wrap">
+  <div class="top">
+    <div class="nfc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8.5a6 6 0 0 1 0 7M9.5 6a10 10 0 0 1 0 12M13 3.5a14 14 0 0 1 0 17"/></svg><span data-i="tap">Tarjeta NFC</span></div>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button id="es" aria-pressed="true">ES</button><button id="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+
+  <article class="card" aria-label="Tarjeta de presentación">
+    <div class="brand">
+      <svg class="drop" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 L31 22 A11.5 11.5 0 1 1 9 22 Z" fill="#C9A227"/><text x="20" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9" fill="#0E1F3A">F&amp;F</text></svg>
+      <div><h1>F&amp;F <span>Oil</span> Solutions</h1><div class="desc">Industrial Oil Filtration &amp; Reclamation</div></div>
+    </div>
+    <div class="who"><b id="c-name"></b><span id="c-title"></span></div>
+    <div class="grades" aria-label="Grados ISO VG"><span>VG 32</span><span>VG 46</span><span>VG 68</span></div>
+  </article>
+
+  <div class="actions">
+    <a class="act" id="a-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-i="call">Llamar</span></a>
+    <a class="act" id="a-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c.5 2.5 2.5 4.5 5 5l1-1.5-2-1-1 1a4 4 0 0 1-1.5-1.5l1-1-1-2z"/></svg><span>WhatsApp</span></a>
+    <a class="act" id="a-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span data-i="mail">Correo</span></a>
+    <a class="act" id="a-web" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span data-i="web">Sitio web</span></a>
+  </div>
+
+  <a class="primary" id="save" href="contact.vcf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="8" r="4"/><path d="M3 21a7 7 0 0 1 14 0M19 8v6M16 11h6"/></svg><span data-i="save">Guardar contacto</span></a>
+  <div class="row2">
+    <button class="ghost" id="share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg><span data-i="share">Compartir</span></button>
+    <button class="ghost" id="install"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m-5-5 5 5 5-5M5 21h14"/></svg><span data-i="install">Instalar app</span></button>
+  </div>
+  <p class="status" id="msg" role="status"></p>
+
+  <section>
+    <h2 data-i="services">Servicios</h2>
+    <ul class="svc">
+      <li><b data-i="s1">Filtración en sitio</b><code>10 GPM</code><small data-i="s1d">Llevamos el equipo a su planta; la máquina sigue operando.</small></li>
+      <li><b data-i="s2">Deshidratación</b><code>ppm</code><small data-i="s2d">Retiramos agua y contaminantes, con medición al momento.</small></li>
+      <li><b data-i="s3">Análisis de laboratorio</b><code>LAB</code><small data-i="s3d">Muestra por máquina y monitoreo mensual.</small></li>
+      <li><b data-i="s4">Aceite recuperado</b><code>VG 32·46·68</code><small data-i="s4d">Aceite hidráulico recuperado, vendido por galón.</small></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 data-i="card">Tarjeta NFC y QR</h2>
+    <div class="panel">
+      <div class="qrbox"><div id="qr" aria-label="Código QR"></div>
+        <div><p data-i="qrd">Escanee para abrir esta tarjeta. Es la misma dirección que lleva grabada la tarjeta NFC.</p><div class="url" id="url"></div></div></div>
+      <button class="ghost" id="nfc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M9 9a4 4 0 0 1 0 6M12 7a7 7 0 0 1 0 10"/></svg><span data-i="write">Grabar tarjeta NFC</span></button>
+      <p class="hint" id="nfchint"></p>
+    </div>
+  </section>
+  <footer>ffoilsolutions.com · Rio Grande Valley, TX</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+/* ===== Datos de la tarjeta: edite aquí ===== */
+const CONTACT = {
+  name: "Fernando",
+  title: {es:"Fundador · Operaciones", en:"Founder · Operations"},
+  org: "F&F Oil Solutions",
+  phone: "+19562726415", phoneLabel: "(956) 272-6415",
+  email: "info@ffoilsolutions.com",
+  web: "https://ffoilsolutions.com",
+  // Dirección pública de esta app (la que se graba en la tarjeta NFC y el QR)
+  cardUrl: "https://ffoilsolutions.com/card/"
+};
+/* ========================================== */
+
+const T = {
+ es:{tap:"Tarjeta NFC",call:"Llamar",mail:"Correo",web:"Sitio web",save:"Guardar contacto",share:"Compartir",install:"Instalar app",
+  services:"Servicios",s1:"Filtración en sitio",s1d:"Llevamos el equipo a su planta; la máquina sigue operando.",
+  s2:"Deshidratación",s2d:"Retiramos agua y contaminantes, con medición al momento.",
+  s3:"Análisis de laboratorio",s3d:"Muestra por máquina y monitoreo mensual.",
+  s4:"Aceite recuperado",s4d:"Aceite hidráulico recuperado, vendido por galón.",
+  card:"Tarjeta NFC y QR",qrd:"Escanee para abrir esta tarjeta. Es la misma dirección que lleva grabada la tarjeta NFC.",
+  write:"Grabar tarjeta NFC",
+  nfcOk:"Acerque una tarjeta NFC en blanco a la parte trasera del teléfono.",
+  nfcNo:"Este navegador no puede grabar NFC. Grabe la dirección de arriba con la app gratuita NFC Tools (Android o iPhone): Escribir → Agregar registro → URL.",
+  written:"Tarjeta grabada. Cualquier teléfono que la toque abrirá esta página.",
+  wErr:"No se pudo grabar: ",copied:"Enlace copiado.",
+  iosInstall:"En iPhone: toque Compartir en Safari y luego «Agregar a inicio».",
+  installed:"La app ya está instalada en este dispositivo.",
+  otherInstall:"Abra el menú del navegador y elija «Instalar app» o «Agregar a pantalla principal».",
+  shareText:"F&F Oil Solutions — filtración y recuperación de aceite industrial"},
+ en:{tap:"NFC Card",call:"Call",mail:"Email",web:"Website",save:"Save contact",share:"Share",install:"Install app",
+  services:"Services",s1:"On-site filtration",s1d:"We bring the rig to your plant; the machine keeps running.",
+  s2:"Dehydration",s2d:"We remove water and contaminants, measured in real time.",
+  s3:"Lab analysis",s3d:"Per-machine sampling and monthly monitoring.",
+  s4:"Reclaimed oil",s4d:"Reclaimed hydraulic oil, sold by the gallon.",
+  card:"NFC card & QR",qrd:"Scan to open this card. It is the same address written on the NFC card.",
+  write:"Write NFC card",
+  nfcOk:"Hold a blank NFC card against the back of the phone.",
+  nfcNo:"This browser can't write NFC. Write the address above with the free NFC Tools app (Android or iPhone): Write → Add a record → URL.",
+  written:"Card written. Any phone that taps it will open this page.",
+  wErr:"Could not write: ",copied:"Link copied.",
+  iosInstall:"On iPhone: tap Share in Safari, then “Add to Home Screen”.",
+  installed:"The app is already installed on this device.",
+  otherInstall:"Open the browser menu and choose “Install app” or “Add to Home screen”.",
+  shareText:"F&F Oil Solutions — industrial oil filtration & reclamation"}
+};
+let lang = "es";
+try{ lang = localStorage.getItem("ff-lang") || (navigator.language||"es").slice(0,2); }catch(e){}
+if(!T[lang]) lang="es";
+const $ = id => document.getElementById(id);
+const msg = (t,cls="") => { const m=$("msg"); m.textContent=t; m.className="status "+cls; };
+
+// Use the hosted address when running from the real site, otherwise the configured one.
+const hosted = /^https?:$/.test(location.protocol) && !/claude|localhost|127\.0/.test(location.hostname);
+const CARD = hosted ? location.origin + location.pathname.replace(/index\.html$/,"") : CONTACT.cardUrl;
+
+function render(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i]").forEach(el=>{ const k=el.dataset.i; if(T[lang][k]) el.textContent=T[lang][k]; });
+  $("es").setAttribute("aria-pressed", lang==="es"); $("en").setAttribute("aria-pressed", lang==="en");
+  $("c-name").textContent = CONTACT.name;
+  $("c-title").textContent = CONTACT.title[lang] + " · " + CONTACT.phoneLabel;
+  $("nfchint").textContent = ("NDEFReader" in window) ? T[lang].nfcOk : T[lang].nfcNo;
+}
+$("es").onclick=()=>{lang="es";try{localStorage.setItem("ff-lang",lang)}catch(e){};render()};
+$("en").onclick=()=>{lang="en";try{localStorage.setItem("ff-lang",lang)}catch(e){};render()};
+
+$("a-call").href = "tel:"+CONTACT.phone;
+$("a-wa").href = "https://wa.me/"+CONTACT.phone.replace(/\D/g,"");
+$("a-mail").href = "mailto:"+CONTACT.email;
+$("a-web").href = CONTACT.web;
+$("url").textContent = CARD;
+
+// vCard (static contact.vcf when hosted; generated blob as fallback)
+function vcard(){
+  return ["BEGIN:VCARD","VERSION:3.0","N:;"+CONTACT.name+";;;","FN:"+CONTACT.name,"ORG:"+CONTACT.org,
+  "TITLE:"+CONTACT.title.en,"TEL;TYPE=WORK,VOICE:"+CONTACT.phone,"EMAIL;TYPE=WORK:"+CONTACT.email,
+  "URL:"+CONTACT.web,"NOTE:Industrial Oil Filtration & Reclamation","END:VCARD"].join("\r\n");
+}
+if(!hosted){ $("save").href = URL.createObjectURL(new Blob([vcard()],{type:"text/vcard"})); $("save").download="FF-Oil-Solutions.vcf"; }
+
+// QR
+try{ new QRCode($("qr"),{text:CARD,width:224,height:224,colorDark:"#0E1F3A",colorLight:"#ffffff",correctLevel:QRCode.CorrectLevel.M}); }catch(e){}
+
+// Share
+$("share").onclick = async ()=>{
+  if(navigator.share){ try{ await navigator.share({title:CONTACT.org,text:T[lang].shareText,url:CARD}); return; }catch(e){ if(e.name==="AbortError") return; } }
+  try{ await navigator.clipboard.writeText(CARD); msg(T[lang].copied,"ok"); }catch(e){ msg(CARD); }
+};
+
+// NFC write (Chrome on Android)
+$("nfc").onclick = async ()=>{
+  if(!("NDEFReader" in window)){ msg(T[lang].nfcNo); return; }
+  try{ msg(T[lang].nfcOk); const ndef = new NDEFReader();
+    await ndef.write({records:[{recordType:"url",data:CARD}]}); msg(T[lang].written,"ok");
+  }catch(e){ msg(T[lang].wErr + e.message,"err"); }
+};
+
+// Install
+let deferred=null;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferred=e;});
+$("install").onclick = async ()=>{
+  if(matchMedia("(display-mode: standalone)").matches || navigator.standalone){ msg(T[lang].installed,"ok"); return; }
+  if(deferred){ deferred.prompt(); await deferred.userChoice; deferred=null; return; }
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  msg(ios ? T[lang].iosInstall : T[lang].otherInstall);
+};
+
+if("serviceWorker" in navigator && hosted){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
+render();
+</script>
+<!--BODY-END-->
+</body>
+</html>
