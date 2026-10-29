@@ -1,20 +1,25 @@
 # F&F Oil Solutions
 
-> Give your oil a second life. On-site oil filtration, vacuum dehydration and reclamation, plus oil flushing, oil sampling and analysis, and hydraulic leak inspection and repair for industrial facilities. Based in the Rio Grande Valley, Texas. English and Spanish.
+> Give your oil a second life. On-site oil purification (filtration, vacuum dehydration and reclamation), high-velocity oil flushing, oil sampling and analysis, and hydraulic leak inspection and repair for industrial facilities. Based in the Rio Grande Valley, Texas. English and Spanish.
 
 - General inquiries: info@ffoilsolutions.com
 - Website (English): https://ffoilsolutions.com/
 - Website (Spanish): https://ffoilsolutions.com/es/
 
 ## Services
-- Oil filtration, vacuum dehydration and reclamation: Particle filtration and vacuum dehydration to treat suitable hydraulic and lubricating oils on site.
-- Oil flushing: Circulation of a compatible fluid through an agreed system or circuit using filtration equipment to remove particles and residual contamination.
-- Hydraulic leak inspection and repair: Inspection of hoses, fittings, connections, seals and accessible components, with repair scope defined with the maintenance team.
-- Oil sampling and analysis: Visual inspection, patch testing and laboratory analysis: ISO 4406 particle count, Karl Fischer water, viscosity at 40 C, TAN, FTIR and ICP.
-- Ongoing oil care programs: Scheduled sampling, oil condition reviews, filtration or dehydration when indicated, and follow-up on leak repair needs.
+- Oil purification: On-site purification of suitable hydraulic, lubricating, turbine and compressor oils by particle filtration and vacuum dehydration.
+- Vacuum oil dehydration: Removal of free and dissolved water from oil, helping release entrained air and gases.
+- Industrial oil filtration: Removal of suspended particles from hydraulic, lubricating and other industrial oils.
+- Oil reclamation: Evaluation and treatment of used oil to determine whether it can stay in service.
+- High-velocity oil flushing: Turbulent-flow flushing of hydraulic and lube oil systems for new installations, pre-commissioning, component replacement and contamination recovery, verified against an agreed ISO 4406 cleanliness target.
+- Oil sampling and analysis: Oil sampling with laboratory analysis to review contamination, water and oil condition.
+- Hydraulic leak inspection and repair: Inspection and repair of hydraulic leaks in industrial equipment.
 
 ## Industries
 Manufacturing and metalworking; plastics, injection molding and recycling; die casting and foundries; oil and gas; refineries and petrochemical facilities; concrete, cement and aggregates; heavy equipment and industrial support.
 
+## Oils
+Hydraulic, lubricating, turbine, compressor, gear and other industrial oils across ISO VG viscosity grades. Compatibility is confirmed for each oil and application.
+
 ## Notes
-A pre-treatment oil assessment is required. Not all used oil can be restored; suitability depends on oil condition, contamination, additive health and equipment requirements. Results vary by oil condition and application.
+A pre-treatment oil assessment is required before any service is defined. Oil is never promised to be reusable before its condition is known. Potential savings vary and are not guaranteed.
