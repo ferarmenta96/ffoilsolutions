@@ -1,6 +1,6 @@
 # F&F Oil Solutions
 
-> Give your oil a second life. On-site oil purification (filtration, vacuum dehydration and reclamation), high-velocity oil flushing, oil sampling and analysis, and hydraulic leak inspection and repair for industrial facilities. Based in the Rio Grande Valley, Texas. English and Spanish.
+> Give your oil a second life. On-site oil purification (filtration, vacuum dehydration and reclamation), high-velocity oil flushing, diesel fuel filtration and water removal, oil sampling and analysis, and hydraulic leak inspection and repair for industrial facilities. Based in the Rio Grande Valley, Texas. English and Spanish.
 
 - General inquiries: info@ffoilsolutions.com
 - Website (English): https://ffoilsolutions.com/
@@ -13,13 +13,14 @@
 - Oil reclamation: Evaluation and treatment of used oil to determine whether it can stay in service.
 - High-velocity oil flushing: Turbulent-flow flushing of hydraulic and lube oil systems for new installations, pre-commissioning, component replacement and contamination recovery, verified against an agreed ISO 4406 cleanliness target.
 - Oil sampling and analysis: Oil sampling with laboratory analysis to review contamination, water and oil condition.
+- Fuel filtration and water removal: On-site filtration of diesel and other suitable fuels in storage tanks, day tanks and supply systems, using high-efficiency filter elements with coalescer and separator elements that remove free water.
 - Hydraulic leak inspection and repair: Inspection and repair of hydraulic leaks in industrial equipment.
 
 ## Industries
 Manufacturing and metalworking; plastics, injection molding and recycling; die casting and foundries; oil and gas; refineries and petrochemical facilities; concrete, cement and aggregates; heavy equipment and industrial support.
 
 ## Oils
-Hydraulic, lubricating, turbine, compressor, gear and other industrial oils across ISO VG viscosity grades. Compatibility is confirmed for each oil and application.
+Hydraulic, lubricating, turbine, compressor, gear and other industrial oils across ISO VG viscosity grades, plus diesel and other suitable fuels. Compatibility is confirmed for each fluid and application.
 
 ## Notes
 A pre-treatment oil assessment is required before any service is defined. Oil is never promised to be reusable before its condition is known. Potential savings vary and are not guaranteed.
